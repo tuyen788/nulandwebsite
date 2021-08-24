@@ -14,6 +14,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          destination="apply"
         >
           GET STARTED
         </Button>
@@ -22,6 +23,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
+          destination="listings"
         >
           SEE LISTINGS <i className="fas fa-images" />
         </Button>

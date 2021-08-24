@@ -6,27 +6,31 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.about-us,
+.listings,
+.apply {
   display: flex;
+  flex-direction: column;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.services {
-  background-image: url("./images/img-2.jpg");
-  background-position: center;
+.about-us {
+  background-image: url("./images/about.jpg");
+  background-color: #242424;
+  background-blend-mode: difference;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
-.products {
-  background-image: url("./images/img-1.jpg");
+.listings {
+  /* background-image: url("./images/img-1.jpg"); */
+  background-color: #242424;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -34,11 +38,19 @@
   font-size: 100px;
 }
 
-.sign-up {
+.apply {
   background-image: url("./images/img-8.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.listings > h1 {
+  font-size: 100px;
+}
+
+.listings > p {
+  font-size: 32px;
 }
