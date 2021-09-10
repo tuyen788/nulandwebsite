@@ -28,3 +28,7 @@
 .poster__picture {
   width: 700px;
 }
+
+.poster__info {
+  max-width: 600px;
+}

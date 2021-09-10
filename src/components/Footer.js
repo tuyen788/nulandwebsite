@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-
+import logo from "../images/nuland-logo-big.png";
 function Footer() {
   return (
     <div className="footer-container">
@@ -58,14 +58,18 @@ function Footer() {
             <Link to="/">Facebook</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
+            <Link to="/admin">Admin</Link>
           </div>
         </div>
       </div>
       <section class="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link to="/" className="social-logo">
+            {/* <Link to="/" className="social-logo">
               Nuland <i className="fas fa-home" />
+            </Link> */}
+            <Link to="/" className="social-logo">
+              <img className="social-logo-img" src={logo} />
             </Link>
           </div>
           <small className="website-rights">Nuland &copy; 2021</small>

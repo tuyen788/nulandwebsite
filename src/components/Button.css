@@ -25,6 +25,18 @@
   transition: all 0.3s ease-otu;
 }
 
+.btn--filled {
+  margin-top: 40px;
+  background-color: var(--accent);
+  color: var(--primary);
+  border: 1px solid var(--accent);
+}
+
+.btn--small {
+  padding: 6px 16px;
+  font-size: 10px;
+}
+
 .btn--medium {
   padding: 8px 20px;
   font-size: 20px;
@@ -35,6 +47,7 @@
   font-size: 20px;
 }
 
+.btn--small:hover,
 .btn--medium:hover,
 .btn--large:hover {
   background: var(--primary);

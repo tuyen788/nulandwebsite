@@ -7,6 +7,7 @@ import img4 from "../images/img-4.jpg";
 import img8 from "../images/img-8.jpg";
 import "./Poster.css";
 import { Button } from "./Button";
+
 function Poster() {
   return (
     <div>
@@ -26,6 +27,14 @@ function Poster() {
                 <p>Available date: September 1st, 2021</p>
                 <p>Price: $2,000/month</p>
                 <p>
+                  Amenities: Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Alias quo, saepe modi, ea veniam illo dolorum
+                  repudiandae, incidunt ipsa accusamus consequatur assumenda
+                  autem non quibusdam dignissimos laborum a vero. Beatae.
+                  Amenities: Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Alias quo, saepe modi, ea veniam illo dolorum
+                  repudiandae, incidunt ipsa accusamus consequatur assumenda
+                  autem non quibusdam dignissimos laborum a vero. Beatae.
                   Amenities: Lorem ipsum dolor sit, amet consectetur adipisicing
                   elit. Alias quo, saepe modi, ea veniam illo dolorum
                   repudiandae, incidunt ipsa accusamus consequatur assumenda
